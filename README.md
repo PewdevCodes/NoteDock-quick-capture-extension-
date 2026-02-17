@@ -1,19 +1,58 @@
-# NoteDock — Quick Capture Browser Extension
+<p align="center">
+  <img src="ss/ss1.png" width="750"/>
+</p>
 
-**NoteDock** is a lightweight browser extension that lets you instantly save notes, links, and screenshots while browsing — without switching tabs or opening external apps.  
-Click the extension, write your thought, save it, and keep moving.
+<h1 align="center">📝 NoteDock</h1>
 
-Everything runs locally inside your browser for speed and simplicity.
+<p align="center">
+  A fast, minimal browser extension for capturing notes, links, and screenshots while you browse.
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Manifest-V3-blue"/>
+  <img src="https://img.shields.io/badge/Local--First-Privacy-green"/>
+  <img src="https://img.shields.io/badge/Status-Active-black"/>
+</p>
 
 ---
 
-## ✨ Features
+## ✨ Overview
 
-- 📝 Quick note capture from any website
-- 🔗 Automatically saves the current page URL with your note
-- 📸 Capture a screenshot of the active tab
-- ⚡ Fast popup interface
-- 🔒 Local-first storage (no servers, no tracking)
+**NoteDock** is designed for frictionless thought capture.  
+Instead of opening Notepad, messaging apps, or switching tabs, you can instantly save notes directly from your browser popup.
+
+✔ Write quick notes  
+✔ Auto-attach current tab URL  
+✔ Capture screenshots  
+✔ Everything stored locally
+
+---
+
+## 🚀 Features
+
+- ⚡ Instant popup note-taking
+- 🔗 Automatic page link saving
+- 📸 One-click screenshot capture
+- 🧠 Clean distraction-free interface
+- 🔒 No tracking — local storage only
+
+---
+
+## 📸 Preview
+
+<p align="center">
+  <img src="ss/ss2.png" width="420"/>
+  <img src="ss/ss3.png" width="420"/>
+</p>
+
+<p align="center">
+  <img src="ss/ss4.png" width="420"/>
+  <img src="ss/ss6.png" width="420"/>
+</p>
+
+<p align="center">
+  <img src="ss/ss7.png" width="420"/>
+</p>
 
 ---
 
@@ -21,71 +60,80 @@ Everything runs locally inside your browser for speed and simplicity.
 
 quick-capture-extension/
 │
-├── icons/           # Extension icons
-├── background.js    # Background service worker (handles screenshots)
-├── manifest.json    # Extension configuration
-├── popup.html       # Popup UI
-├── popup.js         # Popup logic
-├── style.css        # Styling
+├── icons/
+├── ss/
+├── background.js
+├── manifest.json
+├── popup.html
+├── popup.js
+├── style.css
+├── README.md
 
 
 ---
 
-## 🚀 Installation (Manual / Developer Mode)
+## 🧩 Installation (Manual Setup)
 
-Since NoteDock is not published on the Chrome Web Store, install it manually:
+NoteDock is currently distributed via GitHub.
 
 1. Download or clone this repository.
 2. Open Chrome and go to:
 
-```
-
 chrome://extensions
 
-```
 
-3. Enable **Developer Mode** (top right).
+3. Enable **Developer Mode**.
 4. Click **Load unpacked**.
 5. Select the `quick-capture-extension` folder.
 
-The NoteDock icon should now appear in your toolbar.
+The extension icon should appear in your toolbar.
 
 ---
 
-## 🧠 How to Use
+## 🧠 Usage
 
-1. Open any website.
-2. Click the NoteDock extension icon.
-3. Write your note in the popup.
-4. Click **Save** to store it.
-5. Click **Capture Image** to save a screenshot of the page.
-
-Notes and images are stored locally in your browser.
+1. Visit any webpage.
+2. Click the **NoteDock** icon.
+3. Type your note.
+4. Press **Save** to store it with the page URL.
+5. Use **Capture Image** to save a screenshot.
 
 ---
 
-## 🔐 Privacy
+## 🔐 Privacy First
 
-- No data collection
 - No external servers
-- No tracking
-- All information stays in local browser storage
+- No analytics
+- No account required
+- All data stored locally via Chrome Storage API
 
 ---
 
-## 🛠 Tech Stack
+## 🛠 Built With
 
-- Chrome Extension Manifest V3
+- Manifest V3
 - Vanilla JavaScript
 - HTML + CSS
-- Chrome Storage API
+- Chrome Tabs & Storage APIs
 
 ---
 
-## 📌 Notes
+## 📌 Roadmap
 
-This project is a lightweight productivity tool built for quick capture workflows.  
-Feel free to fork, modify, or improve the extension.
+- [ ] Notes history viewer
+- [ ] Right-click “Save to NoteDock”
+- [ ] Export notes as image
+- [ ] Dark mode toggle
 
 ---
 
+## 🤝 Contributing
+
+Pull requests and improvements are welcome.  
+If you have ideas to make NoteDock faster or cleaner, open an issue.
+
+---
+
+## 📄 License
+
+MIT License
